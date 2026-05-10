@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA-Style Open World Game</title>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/",
+            "cannon-es": "https://unpkg.com/cannon-es@0.20.0/dist/cannon-es.js",
+            "cannon-es/": "https://unpkg.com/cannon-es@0.20.0/dist/"
+        }
+    }
+    </script>
+    <link rel="stylesheet" href="styles/hud.css">
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="hud">
+        <!-- HUD elements will be added here -->
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
