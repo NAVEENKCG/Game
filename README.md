@@ -41,26 +41,31 @@ Space ← Jump
 ### **Option 1: Direct Link**
 [Open `game.html`](game.html) → Double-click to open in browser
 
+### **Option 1b: Ultra HD Edition**
+[Open `game-ultra-hd.html`](game-ultra-hd.html) → Double-click to open the cinematic Ultra HD edition
+
 ### **Option 2: Copy & Paste**
-Copy the single `game.html` file and open in any browser
+Copy the single HTML file and open in any browser
 
 ### **Option 3: Live Server**
 ```bash
 cd Game
 python -m http.server 8000
 # Open http://localhost:8000/game.html
+# Or open http://localhost:8000/game-ultra-hd.html for the cinematic edition
 ```
 
 ---
 
 ## 📊 Game Statistics
 
-- **File Size**: 1 HTML file (17.88 KB compressed)
-- **Code**: 2,247 lines (all vanilla ES6)
+- **File Size**: 1 HTML file (17.88 KB compressed) for standard edition
+- **Ultra HD Edition**: `game-ultra-hd.html` with 1024×1024 textures and cinematic post-processing
+- **Code**: 2,247 lines (all vanilla ES6) in standard edition
 - **Dependencies**: Three.js + Cannon-es (CDN only)
-- **Buildings**: 200+
-- **NPCs**: 40
-- **Cars**: 18
+- **Buildings**: 200+ standard, 350+ Ultra HD
+- **NPCs**: 40 standard, 55 Ultra HD
+- **Cars**: 18 standard, 24 Ultra HD
 - **Procedural Textures**: 6 types (no image files!)
 - **Audio Sounds**: 8 (all procedural synthesis)
 - **Supported Browsers**: Chrome, Firefox, Safari, Edge, Opera
